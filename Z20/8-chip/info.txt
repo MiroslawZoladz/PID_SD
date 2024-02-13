@@ -1,0 +1,3 @@
+*2024-02-03: usunieto printy z PS->PL
+2024-01-22: current; pamiec sekwencera zwiekszona do 512
+2022-11-26: Z20, 8chips, ffc board, zmina stale IP ()

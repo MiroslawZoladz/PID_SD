@@ -1,0 +1,39 @@
+*#2024-02-10
+- trig na led1
+
+#2024-02-08
+PID:32bit:
+- pamiec seq 512 słów
+- bez dhcp
+- bez printf-ów w PS
+
+# 2023-01-24
+PID:32bit, 
+- werjsa: PCB:2022-01-24_FINAL 
+- cel: potwierdzonie dziąłnie kamery z płytkami left\right bez promieniowania
+- testy: 
+   - tryb: po jednym gniazdku (jeden chip)
+   - rodzaj: rejestru, pixeli, thscan
+   - wynik: pozytywny
+- PL: 
+   - dopasowano:
+      - plik z constrainami
+      - xls-a
+   - hdf: sdk/design_1_wrapper
+- PS:
+    - wygenarowano i sprawdzono obraz na sd
+      - katalog\plik: 
+      
+- MUX:
+   - dopasowano constrainy:
+      - wersje Left i Right
+   - top.v:
+      - przerobiono na wersję z wyjściami synchronicznymi wzgledem zegara      
+      - dodano parametr ID dom przełączania left\right     
+- PC: bez modyfikacji      
+- sprzątanie, 
+   - constrainy:
+      - PL: usuniecie zbednych plików
+      - MUX: usuniecie zbednych fragmentów
+- archiwizacja:
+   - standard dla PL i MUX
