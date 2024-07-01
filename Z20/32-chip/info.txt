@@ -1,4 +1,9 @@
-*#2024-02-10
+#Current: 2024-02-10: chyba obracanie z było niepotrzebne
+
+#2024-02-15
+- obrocono linie danych i wyjscia mux sin
+
+*2024-02-10
 - trig na led1
 
 #2024-02-08
