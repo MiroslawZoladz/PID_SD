@@ -1,4 +1,9 @@
-#Current: 2024-02-10: chyba obracanie z było niepotrzebne
+BOOT =  24-09-12_13.bin
+
+24-09-12_13.bin: obrazy z czipów odpowiendio obrócone (ciagle) + poprawne indeksy plików korekcyjnych
+
+
+2024-02-15: czy obracanie z było niepotrzebne
 
 #2024-02-15
 - obrocono linie danych i wyjscia mux sin
